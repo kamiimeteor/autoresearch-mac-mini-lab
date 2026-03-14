@@ -8,3 +8,4 @@ local-baseline	2.384811	keep	first local run on M4 32GB
 ebb889a	2.268741	keep	reduce MLP ratio from 4x to 3x
 803407b	2.216343	keep	shrink MLP hidden dim to 1280 on 12-layer 768-dim model
 94b1b57	2.382889	discard	increase HEAD_DIM to 192 reduced step efficiency and worsened bpb
+97e9058	2.392821	discard	shrink mlp hidden to 1152 reduced capacity too much
