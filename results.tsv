@@ -4,3 +4,6 @@ c67ad2a	2.695369	26.9	discard	lower weight decay to 0.1
 909dd59	2.588904	26.9	keep	halve total batch size to 2^16
 4161af3	2.533728	26.9	keep	increase matrix LR to 0.04
 5efc7aa	1.807902	20.7	keep	reduce depth from 8 to 4
+local-baseline	2.384811	keep	first local run on M4 32GB
+ebb889a	2.268741	keep	reduce MLP ratio from 4x to 3x
+803407b	2.216343	keep	shrink MLP hidden dim to 1280 on 12-layer 768-dim model
